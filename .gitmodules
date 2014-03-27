@@ -34,3 +34,6 @@
 [submodule "vimdir/bundle/vim-surround"]
 	path = vimdir/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "vimdir/bundle/vim-tmux-navigator"]
+	path = vimdir/bundle/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
