@@ -19,3 +19,6 @@
 [submodule "vimdir/bundle/vim-endwise"]
 	path = vimdir/bundle/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
+[submodule "vimdir/bundle/vim-gitgutter"]
+	path = vimdir/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
