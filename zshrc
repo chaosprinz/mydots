@@ -75,6 +75,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export EDITOR="vim"
 export SHELL="/bin/zsh"
+export TERM="xterm-256color"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 

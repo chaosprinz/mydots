@@ -20,7 +20,7 @@ set number
 set numberwidth=4
 set wrap
 set ru
-
+set t_Co=256
 nnoremap - <nop>
 let mapleader = "-"
 let maplocalleader = "m"
