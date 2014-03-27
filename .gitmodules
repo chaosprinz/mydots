@@ -16,3 +16,6 @@
 [submodule "vimdir/bundle/syntastic"]
 	path = vimdir/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vimdir/bundle/vim-endwise"]
+	path = vimdir/bundle/vim-endwise
+	url = git://github.com/tpope/vim-endwise.git
