@@ -1,9 +1,6 @@
 [submodule "vimdir/bundle/ag"]
 	path = vimdir/bundle/ag
 	url = https://github.com/rking/ag.vim
-[submodule "vimdir/bundle/AutoComplPop"]
-	path = vimdir/bundle/AutoComplPop
-	url = https://github.com/vim-scripts/AutoComplPop.git
 [submodule "vimdir/bundle/ctrlp"]
 	path = vimdir/bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git

@@ -25,10 +25,11 @@ nnoremap - <nop>
 let mapleader = "-"
 let maplocalleader = "m"
 
+exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+set list
 "mappings
 "toggles file-navigator in a side-pane on and of
 nnoremap <C-n> :NERDTreeTabsToggle<CR> 
-inoremap <C-n> <esc>:NERDTreeTabsToggle<CR>
 "indentin lines more quickly
 nnoremap <leader>l >>
 nnoremap <leader>h <<
