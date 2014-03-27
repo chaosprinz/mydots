@@ -31,3 +31,6 @@
 [submodule "vimdir/bundle/vim-nerdtree-tabs"]
 	path = vimdir/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "vimdir/bundle/vim-surround"]
+	path = vimdir/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
