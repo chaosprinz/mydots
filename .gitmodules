@@ -10,3 +10,9 @@
 [submodule "vimdir/bundle/delimitMate"]
 	path = vimdir/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vimdir/bundle/nerdtree"]
+	path = vimdir/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vimdir/bundle/syntastic"]
+	path = vimdir/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
