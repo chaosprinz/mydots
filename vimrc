@@ -72,3 +72,9 @@ nnoremap H 0
 "from input to command-mode with jk 
 inoremap jk <esc>
 abbrev mailmich chaosprinz76@googlemail.com 
+"mappings for dragvisuals
+vmap  <expr>  <LEFT>   DVB_Drag('left') 
+vmap  <expr>  <RIGHT>  DVB_Drag('right')
+vmap  <expr>  <DOWN>   DVB_Drag('down') 
+vmap  <expr>  <UP>     DVB_Drag('up')   
+vmap  <expr>  D        DVB_Duplicate()  
