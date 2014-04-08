@@ -13,4 +13,5 @@ ln -s $Installdir/vimdir $HOME/.vim
 ln -s $Installdir/vimrc $HOME/.vimrc
 ln -s $Installdir/zshrc $HOME/.zshrc
 ln -s $Installdir/oh-my-zsh $HOME/.oh-my-zsh
-
+ln -s $Installdir/teamocil_layouts $HOME/.teamocil
+ln -s $Installdir/Xdefaults $HOME/.Xdefaults

@@ -1,0 +1,11 @@
+URxvt.termName: xterm-256color
+URxvt.font: xft:Dejavu Sans Mono:pixelsize=11
+URxvt.background:Black
+URxvt.foreground:white
+URxvt.scrollBar:false
+URxvt.troughColor:#000000
+URxvt.perl-ext-common:default,matcher
+URxvt.matcher.button: 1
+URxvt.urlLauncher: uzbl-tabbed
+URxvt.saveLines:16386
+
