@@ -1,5 +1,5 @@
 URxvt.termName: xterm-256color
-URxvt.font: xft:Dejavu Sans Mono:pixelsize=11
+URxvt.font: xft:Dejavu Sans Mono:pixelsize=12
 URxvt.background:Black
 URxvt.foreground:white
 URxvt.scrollBar:false

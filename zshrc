@@ -81,12 +81,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 alias x="exit"
-alias tmd="tmux attach-session -t $USER"
-alias xt="tmux detach -s $USER"
+alias tmd="tmux new-session"
+alias xt="tmux detach"
 
 
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && tmd

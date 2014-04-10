@@ -37,3 +37,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vimdir/bundle/rspec.vim"]
+	path = vimdir/bundle/rspec.vim
+	url = https://github.com/Keithbsmiley/rspec.vim.git
