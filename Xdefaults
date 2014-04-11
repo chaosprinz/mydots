@@ -1,9 +1,8 @@
 URxvt.termName: xterm-256color
 URxvt.font: xft:Dejavu Sans Mono:pixelsize=13
-URxvt.background:Black
+URxvt.background:#1c1c1c
 URxvt.foreground:white
 URxvt.scrollBar:false
-URxvt.troughColor:#000000
 URxvt.saveLines:16386
 *color0:  #2E3436
 *color1:  #a40000

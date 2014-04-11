@@ -24,7 +24,8 @@ set t_Co=256
 nnoremap - <nop>
 let mapleader = "-"
 let maplocalleader = "m"
-
+colorscheme ubloh
+set background=dark
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 "mappings
@@ -170,3 +171,4 @@ if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
 		  \ | wincmd p | diffthis
 endif
+

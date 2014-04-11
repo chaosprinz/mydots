@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+killall Agent.exe
+killall Battle.net.exe
+killall Diablo\ III.exe
