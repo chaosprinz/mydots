@@ -83,6 +83,7 @@ eval "$(rbenv init -)"
 alias x="exit"
 alias tmd="tmux new-session"
 alias xt="tmux detach"
+alias diablo='playonlinux --run "Diablo III"'
 
 
 bindkey '\e[A' history-beginning-search-backward
