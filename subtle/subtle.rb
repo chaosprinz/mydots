@@ -434,8 +434,10 @@ grab "W-KP_3", [ :bottom_right, :bottom_right66, :bottom_right33 ]
 
 # Exec programs
 grab "W-Return", "urxvtc -e zsh -c tmux -q has-session && exec tmux attach-session -d || exec tmux new-session -n$USER -s$USER@$HOSTNAME"
+grab "W-S-Return", "urxvtc -e zsh"
 grab "W-b", "uzbl-tabbed"
 grab "W-g", "urxvtc -geometry 120x5 -name 'zshrun' -e sh -c '/bin/zsh -i -t'"
+grab "W-m", "marlin"
 # Run Ruby lambdas
 grab "S-F2" do |c|
   puts c.name
@@ -610,7 +612,8 @@ end
 # Simple tags
 tag "terms",   "xterm|[u]?rxvt"
 tag "browser", "uzbl|opera|firefox|navigator"
-
+tag "music", "rhythmbox"
+tag "ebooks", "evince"
 # Placement
 tag "editor" do
   match  "[g]?vim"
@@ -732,8 +735,18 @@ end
 
 view "terms", "terms|default"
 view "www",   "browser"
-view "gimp",  "gimp_.*"
-view "dev",   "editor"
+view "ebooks" do
+  match "ebooks"
+  dynamic true
+end
+view "music" do
+  match "music"
+  dynamic true
+end
+view "gimp" do
+  match "gimp_.*"
+  dynamic true
+end
 
 #
 # == Sublets
