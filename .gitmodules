@@ -40,6 +40,6 @@
 [submodule "vimdir/bundle/rspec.vim"]
 	path = vimdir/bundle/rspec.vim
 	url = https://github.com/Keithbsmiley/rspec.vim.git
-[submodule "vimdir/bundle/vim-colors-solarized"]
-	path = vimdir/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vimdir/bundle/vim-HiLinkTrace"]
+	path = vimdir/bundle/vim-HiLinkTrace
+	url = https://github.com/gerw/vim-HiLinkTrace.git
