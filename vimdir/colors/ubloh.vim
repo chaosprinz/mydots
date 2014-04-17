@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "ubloh"
-
+hi Normal       guifg=grey guibg=black ctermfg=grey ctermbg=234
 hi Search       guifg=black guibg=darkred ctermfg=black ctermbg=darkred
 hi IncSearch    guifg=darkred guibg=black ctermfg=darkred ctermbg=black
 hi StatusLine   guifg=grey guibg=darkgreen gui=bold ctermfg=grey ctermbg=darkgreen cterm=bold
@@ -20,7 +20,7 @@ hi Pmenu        guifg=black guibg=grey ctermfg=black ctermbg=grey
 hi PmenuSel     guifg=grey guibg=grey10 gui=bold ctermfg=grey ctermbg=darkgrey cterm=bold
 hi LineNr       guifg=grey50 guibg=grey10 ctermfg=white ctermbg=darkgrey
 
-hi Comment    ctermfg=234 ctermbg=249 cterm=italic
+hi Comment    guibg=black ctermfg=246 ctermbg=234 cterm=italic
 hi Todo       guifg=red guibg=darkred gui=bold ctermfg=red ctermbg=darkred cterm=bold
 hi Title      guifg=white gui=bold ctermfg=white cterm=bold
 hi Underlined guifg=darkcyan ctermfg=darkcyan
@@ -33,7 +33,10 @@ hi String     guifg=chocolate2 ctermfg=94
 hi Constant   guifg=deepskyblue4 gui=bold,italic ctermfg=darkcyan cterm=bold,italic
 hi Type       guifg=limegreen gui=bold ctermfg=green cterm=bold
 hi Function   guifg=violetred gui=bold ctermfg=magenta gui=bold
-
+hi rubyBoolean ctermfg=228 ctermbg=234
+hi rubyPseudoVariable ctermfg=163
+hi rspecKeywords ctermfg=196
+hi rubyInteger ctermfg=154
 hi rubySymbol     guifg=slateblue gui=bold ctermfg=blue cterm=bold
 hi erubyDelimiter guifg=firebrick3 gui=bold ctermfg=red cterm=bold
 

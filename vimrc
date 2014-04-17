@@ -21,11 +21,12 @@ set numberwidth=4
 set wrap
 set ru
 set t_Co=256
+set formatoptions=crotq
+colorscheme ubloh
+
 nnoremap - <nop>
 let mapleader = "-"
 let maplocalleader = "m"
-colorscheme ubloh
-set background=dark
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 "mappings
