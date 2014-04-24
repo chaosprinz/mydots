@@ -357,8 +357,8 @@ grab "KP_Add",      :ViewNext
 grab "KP_Subtract", :ViewPrev
 
 # Move mouse to screen1, screen2, ...
-grab "W-S-h", :ScreenJump1
-grab "W-S-l", :ScreenJump2
+grab "W-C-h", :ScreenJump1
+grab "W-C-l", :ScreenJump2
 grab "W-A-3", :ScreenJump3
 grab "W-A-4", :ScreenJump4
 
@@ -393,26 +393,26 @@ grab "W-equal", :WindowZaphod
 grab "W-r", :WindowRaise
 
 # Lower window
-grab "W-l", :WindowLower
+grab "A-Tab", :WindowLower
 
 # Select next windows
-grab "A-Tab",  :WindowLeft
-grab "W-Down",  :WindowDown
-grab "W-Up",    :WindowUp
-grab "W-Right", :WindowRight
+grab "W-h",  :WindowLeft
+grab "W-j",  :WindowDown
+grab "W-k",    :WindowUp
+grab "W-l", :WindowRight
 
 # Kill current window
-grab "W-S-k", :WindowKill
+grab "W-S-c", :WindowKill
 
 # Cycle between given gravities
 grab "W-KP_7", [ :top_left,     :top_left66,     :top_left33     ]
-grab "W-KP_8", [ :top,          :top66,          :top33          ]
+grab "W-S-k", [ :top,          :top66,          :top33          ]
 grab "W-KP_9", [ :top_right,    :top_right66,    :top_right33    ]
-grab "W-KP_4", [ :left,         :left66,         :left33         ]
-grab "W-KP_5", [ :center,       :center66,       :center33       ]
-grab "W-KP_6", [ :right,        :right66,        :right33        ]
+grab "W-S-h", [ :left,         :left66,         :left33         ]
+grab "W-S-i", [ :center,       :center66,       :center33       ]
+grab "W-S-l", [ :right,        :right66,        :right33        ]
 grab "W-KP_1", [ :bottom_left,  :bottom_left66,  :bottom_left33  ]
-grab "W-KP_2", [ :bottom,       :bottom66,       :bottom33       ]
+grab "W-S-j", [ :bottom,       :bottom66,       :bottom33       ]
 grab "W-KP_3", [ :bottom_right, :bottom_right66, :bottom_right33 ]
 
 # In case no numpad is available e.g. on notebooks
@@ -613,7 +613,7 @@ end
 tag "terms",   "xterm|[u]?rxvt"
 tag "browser", "uzbl|opera|firefox|navigator"
 tag "music", "rhythmbox"
-tag "ebooks", "evince"
+tag "ebooks", "evince|zathura"
 # Placement
 tag "editor" do
   match  "[g]?vim"

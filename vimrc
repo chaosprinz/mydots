@@ -173,3 +173,7 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+"Copy and paste between different Vim sessions
+nmap _Y :!echo "> ~/.vi_tmp<CR><CR>:w! ~/.vi_tmp<CR>
+vmap _Y :w! ~/.vi_tmp<CR>
+nmap _P :r ~/.vi_tmp<CR>"

@@ -1,0 +1,9 @@
+mkdir ranger
+set show-hidden true
+delete
+
+rename link_dots.sh
+chmod +x
+chmod 755
+set show_hidden false
+set show_hidden true
