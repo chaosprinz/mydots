@@ -611,7 +611,7 @@ end
 
 # Simple tags
 tag "terms",   "xterm|[u]?rxvt"
-tag "browser", "uzbl|opera|firefox|navigator"
+tag "browser", "uzbl|opera|firefox|navigator|luakit"
 tag "music", "rhythmbox"
 tag "ebooks", "evince|zathura"
 # Placement
