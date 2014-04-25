@@ -81,8 +81,8 @@ vmap  <expr>  <DOWN>   DVB_Drag('down')
 vmap  <expr>  <UP>     DVB_Drag('up')
 vmap  <expr>  D        DVB_Duplicate()
 "save-file imediatly
-nnoremap <C-w> :w<cr>
-inoremap <C-w> <esc>:w<cr>a
+"nnoremap <C-w> :w<cr>
+"inoremap <C-w> <esc>:w<cr>a
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
