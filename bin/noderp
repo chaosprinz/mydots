@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var repl = require('repl')
+//start a repl storing its context in a variable
+var context = repl.start(">> ", null, null, null, true).context;
+
+//load modules into the repls context
+context.os = require('os');
+context.util = require('util');
+context.net = require('net');
+context.http = require('http');
