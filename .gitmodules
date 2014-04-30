@@ -46,3 +46,6 @@
 [submodule "vimdir/bundle/vim-coffee-script"]
 	path = vimdir/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "nvm"]
+	path = nvm
+	url = https://github.com/creationix/nvm.git

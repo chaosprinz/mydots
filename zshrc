@@ -89,3 +89,6 @@ alias diablo='playonlinux --run "Diablo III"'
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
+source ~/.zsh-adds/tmuxinator.zsh
+source ~/.nvm/nvm.sh
+

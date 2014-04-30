@@ -10,3 +10,5 @@ ln -s $Installdir/teamocil_layouts $HOME/.teamocil
 ln -s $Installdir/Xdefaults $HOME/.Xdefaults
 ln -s $Installdir/subtle $HOME/.config/subtle
 ln -s $Installdir/ranger $HOME/.config/ranger
+ln -s $Installdir/zsh-adds $HOME/.zsh-adds
+ln -s $Installdir/nvm $HOME/.nvm
