@@ -55,3 +55,6 @@
 [submodule "vimdir/bundle/vim-projectile"]
 	path = vimdir/bundle/vim-projectile
 	url = git://github.com/tpope/vim-projectile.git
+[submodule "vimdir/bundle/vim-rake"]
+	path = vimdir/bundle/vim-rake
+	url = git://github.com/tpope/vim-rake.git
