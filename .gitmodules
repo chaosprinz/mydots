@@ -58,3 +58,6 @@
 [submodule "vimdir/bundle/vim-rake"]
 	path = vimdir/bundle/vim-rake
 	url = git://github.com/tpope/vim-rake.git
+[submodule "ruby/rbenv"]
+	path = ruby/rbenv
+	url = https://github.com/sstephenson/rbenv.git
