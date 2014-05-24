@@ -64,3 +64,6 @@
 [submodule "ruby/rbenv_plugins/ruby-build"]
 	path = ruby/rbenv_plugins/ruby-build
 	url = https://github.com/sstephenson/ruby-build.git
+[submodule "vimdir/bundle/vim-stylus"]
+	path = vimdir/bundle/vim-stylus
+	url = git://github.com/wavded/vim-stylus.git
