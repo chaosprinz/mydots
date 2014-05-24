@@ -1,0 +1,4 @@
+# bind some keys for the status-view
+bind status a !@git add %(file)
+bind status + !?git commit -v --amend
+
