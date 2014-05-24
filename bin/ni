@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+vim "$HOME/Projekte/builds/node_doc/$1" --cmd "cd $HOME/Projekte/builds/node_doc"
