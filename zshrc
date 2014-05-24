@@ -48,7 +48,7 @@ ZSH_THEME="muse"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby rake bundler colorize copyfile copydir debian extract tmux)
+plugins=(git ruby rake bundler colorize copyfile copydir debian extract tmux nvm npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,5 +90,20 @@ bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
 source ~/.zsh-adds/tmuxinator.zsh
+source ~/.zsh-adds/ni.zsh
 source ~/.nvm/nvm.sh
 
+alias npsearch="npm search --registry https://registry.npmjs.org --always-auth false"
+ rangercd() {
+   tempfile=$(mktemp)
+   ranger --choosedir="$tempfile" "${@:-$(pwd)}" < $TTY
+   test -f "$tempfile" &&
+   if [ "$(cat -- "$tempfile")" != "$(echo -n `pwd`)" ]; then
+     cd -- "$(cat "$tempfile")"
+   fi
+   rm -f -- "$tempfile"
+ }
+
+ # This binds Ctrl-O to ranger-cd:
+ zle -N rangercd
+ bindkey '^o' rangercd
