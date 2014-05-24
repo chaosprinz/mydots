@@ -22,7 +22,8 @@ set wrap
 set ru
 set t_Co=256
 set formatoptions=crotq
-colorscheme ubloh
+set background=dark
+colorscheme mango
 
 nnoremap - <nop>
 let mapleader = "-"
